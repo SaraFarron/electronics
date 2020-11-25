@@ -14,3 +14,9 @@ star command implemented
 loaded last save
 star command implemented
 triangle command implemented
+loaded last save
+parallel command implemented
+consistent command implemented
+triangle command implemented
+star command implemented
+star command implemented
