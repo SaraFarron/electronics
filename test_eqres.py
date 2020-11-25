@@ -11,7 +11,7 @@ class TestEqres(unittest.TestCase):
 
     def test_parallel(self):
         result = eqres.parallel(two_res, res)
-        self.assertEqual(result, 'r12 = 28.82562277580071')
+        self.assertEqual(result, 'r12 = 28.83')
 
     def test_consistent(self):
         result = eqres.consistent(two_res, res)
@@ -19,11 +19,11 @@ class TestEqres(unittest.TestCase):
 
     def test_to_triangle(self):
         result = eqres.to_triangle(three_res, res)
-        self.assertEqual(result, 'rd = 143.2, re = 2148.0, rf = 5303.703703703704')
+        self.assertEqual(result, 'rd = 143.2, re = 2148.0, rf = 5303.70')
 
     def test_to_star(self):
         result = eqres.to_star(three_res, res)
-        self.assertEqual(result, 'ra = 91.43553794574825, rb = 2.4687595245352028, rc = 37.03139286802804')
+        self.assertEqual(result, 'ra = 91.44, rb = 2.47, rc = 37.03')
 
 
 if __name__ == '__main__':

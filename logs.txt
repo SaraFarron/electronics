@@ -1,0 +1,16 @@
+
+using default nominals
+received nominals
+asked for help
+triangle command implemented
+started new session
+using default nominals
+received nominals
+triangle command implemented
+star command implemented
+loaded last save
+triangle command implemented
+star command implemented
+loaded last save
+star command implemented
+triangle command implemented
