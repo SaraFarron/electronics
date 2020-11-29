@@ -1,4 +1,6 @@
-# same as eqres.py but with OOP
+import eqres
+
+
 class Element:
 
     def __init__(self, first_node, second_node, resistance):
@@ -49,6 +51,6 @@ def run():
 
 run()
 
-
-# TODO убрать узлы, так как это ручное приложение, автоматическое будет в circuit.py
-# TODO реализовать весь функционал eqres.py в ООП
+# TODO сделать прогу чтоб сама преобразовывала цепь в эквивалентный резистор
+# TODO добавить тесты
+# TODO добавить try на случай юзверя

@@ -129,7 +129,17 @@ def run(resistors):
 
         print(two_calcs(shit_for_math, resistors, True))
 
+    else:
+        raise_error()
+
     run(resistors)
+
+
+def raise_error():
+    print('Invalid input, restarted')
+    with open('logs.txt', 'a') as f:
+        f.write('Error took place, new session started\n')
+    launch()
 
 
 def launch():
@@ -169,25 +179,23 @@ def launch():
 
     specs = specs.split(',')
 
+    if len(specs) < 2:
+        raise_error()
+
     for el in specs:
         el = el.split('=')
         try:
             resistors[el[0]] = float(el[1])
         except:
-            print('Invalid input, restarted')
-            launch()
+            raise_error()
 
     with open('logs.txt', 'a') as f:
         f.write('received nominals\n')
+
     run(resistors)
 
 
-with open('logs.txt', 'a') as f:
-    f.write('started new session\n')
+if __name__ == '__main__':
     launch()
 
-# TODO: подумать как сделать связи (узел n связан с узлом k номиналом R: n-R-k например)
 # TODO: сделать тесты (в процессе)
-# TODO: подумать как тут пропихнуть ООП можно сделать класс резисторов, объектами будут резисторы
-#  или класс цепи, с элементами и связями (в процессе)
-# TODO: сделать больше фиксов ошибок
