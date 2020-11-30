@@ -20,3 +20,43 @@ consistent command implemented
 triangle command implemented
 star command implemented
 star command implemented
+using default nominals
+received nominals
+received nominals
+using default nominals
+received nominals
+received nominals
+using default nominals
+received nominals
+received nominals
+using default nominals
+received nominals
+received nominals
+using default nominals
+received nominals
+received nominals
+triangle command implemented
+using default nominals
+received nominals
+received nominals
+triangle command implemented
+parallel command implemented
+consistent command implemented
+asked for help
+star command implemented
+using default nominals
+received nominals
+received nominals
+using default nominals
+received nominals
+received nominals
+triangle command implemented
+using default nominals
+received nominals
+received nominals
+Error took place, new session started
+asked for help
+using default nominals
+received nominals
+received nominals
+asked for help
